@@ -1,0 +1,29 @@
+{
+  "name": "gitter-calc-bot",
+  "version": "0.1.0",
+  "description": "Bot for service Gitter, who will monitor messages in the room and respond to those that meet the format \"calc ...\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Viktor777/bot.git"
+  },
+  "keywords": [
+    "gitter",
+    "bot",
+    "calc"
+  ],
+  "author": "Viktor777",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viktor777/bot/issues"
+  },
+  "homepage": "https://github.com/Viktor777/bot",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "mathjs": "^1.4.0",
+    "node-gitter": "^1.2.8"
+  }
+}
