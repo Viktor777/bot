@@ -40,7 +40,7 @@ You can use other command (not "calc") or add/remove allowed operations via sett
 #### Example
 
 ```js
-var regular = /\bcommand_name\s([\d+\-]+)/, // use format bcommand_name ... with operations +, -
+var regular = /\bcommand_name\s([\d+\-]+)/, // use format command_name ... with operations +, -
     calcBot = new CalcBot(token, room, regular);
 ```
 ### New bot type
