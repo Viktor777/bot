@@ -10,5 +10,5 @@ if (!process.env.TOKEN) {
     process.exit(1);
 } else {
     calcBot = new CalcBot(process.env.TOKEN, process.argv[2]);
-    module.exports = calcBot.run();
+    calcBot.run();
 }
